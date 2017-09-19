@@ -20,12 +20,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func click(_ sender: UIButton) {
-        var text = textFeild.text ?? "" 
+        var text = textFeild.text ?? ""
         if let textKeyboard = sender.titleLabel?.text {
-            text += textKeyboard
-            
+            text += String(textKeyboard[textKeyboard.startIndex])
+            textFeild.text = text
+                
+
         }
-        textFeild.text = text
+        
         
         
     }

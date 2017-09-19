@@ -38,7 +38,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Y0S-bD-31V" userLabel="NumberStackView">
                                         <rect key="frame" x="0.0" y="85.5" width="288" height="71.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tat-dT-5ah" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Tat-dT-5ah" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="1">
@@ -61,7 +61,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="U7N-jj-nYl" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="98.5" y="0.0" width="91" height="71.5"/>
-                                                <state key="normal" title="2">
+                                                <state key="normal" title="2 ABC">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -80,10 +80,10 @@
                                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lrp-6N-ArM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lq2-oJ-rAV" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lq2-oJ-rAV" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="197.5" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="3">
+                                                <state key="normal" title="3 DEF">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -107,10 +107,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HKC-By-LD3" userLabel="NumberStackView">
                                         <rect key="frame" x="0.0" y="171" width="288" height="71.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhF-t0-lrf" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BhF-t0-lrf" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="4">
+                                                <state key="normal" title="4 GHI">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -128,7 +128,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MDT-Gv-CzL" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="98.5" y="0.0" width="91" height="71.5"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
-                                                <state key="normal" title="5">
+                                                <state key="normal" title="5 JKL">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -146,10 +146,10 @@
                                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S09-2q-HdC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-Fh-UMD" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-Fh-UMD" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="197.5" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="6">
+                                                <state key="normal" title="6 MNO">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -173,10 +173,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bLi-iI-IiB" userLabel="NumberStackView">
                                         <rect key="frame" x="0.0" y="256.5" width="288" height="71.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch5-5c-IXw" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ch5-5c-IXw" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="7">
+                                                <state key="normal" title="7 PQRS">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -194,10 +194,10 @@
                                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tqZ-U7-5bX"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2D-El-IcZ" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Q2D-El-IcZ" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="98.5" y="0.0" width="91" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="8">
+                                                <state key="normal" title="8 TUV">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -215,10 +215,10 @@
                                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHJ-iM-YMA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9N-jW-vSY" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="M9N-jW-vSY" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="197.5" y="0.0" width="90.5" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="9">
+                                                <state key="normal" title="9 WXYZ">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -263,10 +263,10 @@
                                                     <action selector="click:" destination="BYZ-38-t0r" eventType="touchDragInside" id="b2f-hT-RMq"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lx-Wc-z3S" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1lx-Wc-z3S" customClass="ButtonCustom" customModule="KeyBoard" customModuleProvider="target">
                                                 <rect key="frame" x="98.5" y="0.0" width="91" height="71.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="0">
+                                                <state key="normal" title="0 +">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
